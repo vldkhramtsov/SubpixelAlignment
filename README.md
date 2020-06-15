@@ -16,4 +16,5 @@ The example of using the code is presented in the Jupyter Notebook (``data/examp
 - rasterio==1.1.5
 - scikit-image==0.17.2
 - scipy==1.4.1
+
 (see requirements.txt for the more details)
