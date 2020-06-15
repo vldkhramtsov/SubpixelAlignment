@@ -116,7 +116,7 @@ class PhaseCorrelation:
             Target image after phase correlation shifting.
         """
         shift_pixels = self.get_shift()
-        print(f"Detected shift: {shift_pixels}")
+        print(f"Detected shift: {shift_pixels / self.upscale_factor}")
         target = self.resample(self.target_image, self.upscale_factor)
         
         if target.ndim == 3:
